@@ -1,13 +1,13 @@
 lothian Angus Lothian
 alindberg Axel Lindberg
-biechen Beichen Chen
-emilabr Emil Br
+beichen Beichen Chen
+emilabr Emil Abrahamsson
 davidyu David Yu
 grou Gustave Rousselet
 hrunelov Hannes RunelÃ¶v
 jcervall Jonatan Cerwall
 ssaleh Shahin Saleh
-oskaerik Oskar Eriksson
+oskarerik Oskar Eriksson
 epforsen Patricia Forssen
 ricliu Richard Liu
 adamj Adam Jacobs
