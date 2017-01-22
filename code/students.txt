@@ -12,3 +12,4 @@ epforsen Patricia Forssen
 ricliu Richard Liu
 adamj Adam Jacobs
 johnnil John Nilsson
+kevinha Kevin Harrison
