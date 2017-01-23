@@ -8,7 +8,6 @@ hrunelov Hannes Runelov
 johnnil John Nilsson
 jcervall Jonatan Cerwall
 oseriks Oskar Eriksson
-epforsen Patricia Forssen
 ricliu Richard Liu
 ssaleh Shahin Saleh
 adamjac Adam Jacobs
