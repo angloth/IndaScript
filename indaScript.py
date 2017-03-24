@@ -1,8 +1,15 @@
 import random
 import webbrowser
 
-print("Which week is it?")
-week = input()
+print("Which week is it? (Type week nr + 'pal' if you want palinda)")
+inp = []
+inp = input().split(' ', 1)
+week = inp[0].lower()
+palinda = False
+if (len(inp) == 2):
+    if (inp[1] == "pal"):
+        palinda = True
+
 
 studentFile = open("students.txt", "r")
 
@@ -26,10 +33,16 @@ while coolRunnings:
             git = selectedStudent[0]
             firstName = selectedStudent[1]
             lastName = selectedStudent[2]
+            weekType = ""
+            if (palinda):
+                weekType = "-palinda-"
+            else:
+                weekType = "-week-"
 
             print(firstName, lastName, "has been selected")
 
-            url = "https://gits-15.sys.kth.se/inda-16/" + git  + "-week-" + week + "/"
+            url = "https://gits-15.sys.kth.se/inda-16/" + git  + weekType + week + "/"
+        
             webbrowser.open(url)
 
     elif answer == "n":
