@@ -42,11 +42,11 @@ while coolRunnings:
             print(firstName, lastName, "has been selected")
 
             url = "https://gits-15.sys.kth.se/inda-16/" + git  + weekType + week + "/"
-        
+
             webbrowser.open(url)
 
     elif answer == "n":
-        print("Then my purpose is finito")
+        print("Initiating self destruct...")
         coolRunnings = False
 
     else:
